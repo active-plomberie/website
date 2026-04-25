@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Plomberie | Plombier Bourg-en-Bresse - Urgence 24h/7j</title>
+    <meta name="description" content="Active Plomberie : Dépannage d'urgence 24h/24 à Bourg-en-Bresse, Bresse et Jura. Installation sanitaire, chauffe-eau et rénovation de salle de bain en Rhône-Alpes.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .bg-cobalt { background-color: #0047AB; }
+        .text-cobalt { color: #0047AB; }
+        .border-cobalt { border-color: #0047AB; }
+        .hover-cobalt:hover { background-color: #003580; }
+        
+        /* Animation simple pour les urgences */
+        @keyframes pulse-red {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+        .pulse-urgent { animation: pulse-red 2s infinite; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-black text-cobalt tracking-tighter">ACTIVE <span class="text-slate-700">PLOMBERIE</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-semibold text-slate-600">
+                    <a href="#services" class="hover:text-cobalt transition">Services</a>
+                    <a href="#expertises" class="hover:text-cobalt transition">Expertises</a>
+                    <a href="#zones" class="hover:text-cobalt transition">Zones</a>
+                </div>
+                <div>
+                    <a href="tel:+33684130622" class="bg-cobalt text-white px-6 py-3 rounded-full font-bold shadow-lg hover-cobalt transition flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                        06 84 13 06 22
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="inline-block bg-red-100 text-red-600 px-4 py-1 rounded-full text-sm font-bold mb-6 pulse-urgent border border-red-200">
+                        🚨 URGENCE 24H/24 & 7J/7
+                    </span>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+                        Votre Plombier Local à <span class="text-cobalt">Bourg-en-Bresse</span>
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-10 max-w-xl mx-auto lg:mx-0">
+                        Intervention rapide pour vos dépannages, installations sanitaires et rénovations clef en main. 
+                        Transparence, contact humain et expertise certifiée.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="tel:+33684130622" class="bg-cobalt text-white px-10 py-5 rounded-2xl font-extrabold text-lg shadow-2xl hover-cobalt transition-all transform hover:-translate-y-1 text-center">
+                            Besoin d'un dépannage ?
+                        </a>
+                        <a href="mailto:active.plomberie.01000@gmail.com" class="bg-white text-slate-700 border-2 border-slate-200 px-10 py-5 rounded-2xl font-extrabold text-lg hover:bg-slate-50 transition-all text-center">
+                            Demander un devis
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block relative">
+                    <div class="absolute inset-0 bg-cobalt/10 rounded-3xl -rotate-3 scale-105"></div>
+                    <div class="relative bg-white p-4 rounded-3xl shadow-2xl border border-slate-100">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-slate-50 p-6 rounded-2xl text-center">
+                                <span class="block text-3xl mb-2">⭐</span>
+                                <span class="block font-bold">Avis Clients</span>
+                                <span class="text-sm text-slate-500">Satisfaction 100%</span>
+                            </div>
+                            <div class="bg-slate-50 p-6 rounded-2xl text-center">
+                                <span class="block text-3xl mb-2">🛠️</span>
+                                <span class="block font-bold">Décennale</span>
+                                <span class="text-sm text-slate-500">Travaux protégés</span>
+                            </div>
+                            <div class="bg-slate-50 p-6 rounded-2xl text-center">
+                                <span class="block text-3xl mb-2">🎓</span>
+                                <span class="block font-bold">Diplômé</span>
+                                <span class="text-sm text-slate-500">Expertise reconnue</span>
+                            </div>
+                            <div class="bg-slate-50 p-6 rounded-2xl text-center">
+                                <span class="block text-3xl mb-2">📍</span>
+                                <span class="block font-bold">Local</span>
+                                <span class="text-sm text-slate-500">01000 & Environs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Expertises / Badges -->
+    <section class="py-10 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center md:justify-between gap-8 text-slate-400 font-semibold uppercase text-xs tracking-widest text-center">
+            <span class="flex items-center gap-2">🛡️ Assurance Décennale</span>
+            <span class="flex items-center gap-2">⚡ Intervention 30 min</span>
+            <span class="flex items-center gap-2">🔍 Devis Gratuit</span>
+            <span class="flex items-center gap-2">💬 Conseil Expert</span>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-slate-900 mb-4">Nos Services de Plomberie</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Une gamme complète pour votre habitat, de l'urgence à la rénovation esthétique.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Dépannage -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 hover:border-cobalt transition group">
+                    <div class="w-14 h-14 bg-cobalt/10 text-cobalt rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-cobalt group-hover:text-white transition">🚿</div>
+                    <h3 class="text-xl font-bold mb-4">Dépannage d'urgence</h3>
+                    <ul class="text-slate-600 space-y-3">
+                        <li class="flex items-center gap-2 text-sm">✓ Recherche de fuites d'eau</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Débouchage de canalisations</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Réparation WC & Chasses d'eau</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Remplacement de robinetterie</li>
+                    </ul>
+                </div>
+
+                <!-- Chauffage -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 hover:border-cobalt transition group">
+                    <div class="w-14 h-14 bg-cobalt/10 text-cobalt rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-cobalt group-hover:text-white transition">🔥</div>
+                    <h3 class="text-xl font-bold mb-4">Chauffe-eau & Chauffage</h3>
+                    <ul class="text-slate-600 space-y-3">
+                        <li class="flex items-center gap-2 text-sm">✓ Pose de ballons d'eau chaude</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Détartrage & Maintenance</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Remplacement chauffe-eau</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Installation de radiateurs</li>
+                    </ul>
+                </div>
+
+                <!-- Installation -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 hover:border-cobalt transition group">
+                    <div class="w-14 h-14 bg-cobalt/10 text-cobalt rounded-2xl flex items-center justify-center text-2xl mb-6 group-hover:bg-cobalt group-hover:text-white transition">🛁</div>
+                    <h3 class="text-xl font-bold mb-4">Installation Clef en Main</h3>
+                    <ul class="text-slate-600 space-y-3">
+                        <li class="flex items-center gap-2 text-sm">✓ Création de salle de bain</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Rénovation complète réseaux</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Pose d'adoucisseurs</li>
+                        <li class="flex items-center gap-2 text-sm">✓ Raccordements complexes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us / Values -->
+    <section id="expertises" class="py-24 bg-slate-900 text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-8">Plus qu'un dépannage, un service humain</h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-cobalt rounded-xl flex items-center justify-center font-bold">01</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Transparence totale</h4>
+                                <p class="text-slate-400">Explications claires des travaux et tarifs annoncés avant intervention. Pas de mauvaises surprises.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-cobalt rounded-xl flex items-center justify-center font-bold">02</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Votre plombier local</h4>
+                                <p class="text-slate-400">Basé autour de Bourg-en-Bresse, nous privilégions la proximité et le contact direct.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="flex-shrink-0 w-12 h-12 bg-cobalt rounded-xl flex items-center justify-center font-bold">03</div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Qualité Durable</h4>
+                                <p class="text-slate-400">Travaux couverts par l'assurance décennale et réalisés avec du matériel de qualité professionnelle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-10 rounded-3xl backdrop-blur-sm" id="zones">
+                    <h3 class="text-2xl font-bold mb-6 text-cobalt">Zone d'intervention</h3>
+                    <div class="space-y-6">
+                        <div class="p-6 bg-white/5 rounded-2xl border-l-4 border-cobalt">
+                            <h5 class="font-bold text-lg mb-1">Dépannages & Petites Interventions</h5>
+                            <p class="text-slate-400 italic">Secteurs : Bourg-en-Bresse, Bresse et Jura.</p>
+                        </div>
+                        <div class="p-6 bg-white/5 rounded-2xl border-l-4 border-blue-400">
+                            <h5 class="font-bold text-lg mb-1">Gros Chantiers & Rénovations</h5>
+                            <p class="text-slate-400 italic">Secteur : Toute la région Rhône-Alpes.</p>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <a href="tel:+33684130622" class="inline-flex items-center gap-3 text-cobalt font-bold hover:underline">
+                            Vérifier ma disponibilité dans votre ville →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="contact" class="py-24 bg-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-slate-50 border border-slate-200 p-12 rounded-[3rem] shadow-xl">
+                <h2 class="text-4xl font-extrabold mb-4">Un problème urgent ?</h2>
+                <p class="text-slate-600 mb-10 text-lg font-medium">Contactez Active Plomberie pour une intervention rapide.</p>
+                <div class="flex flex-col items-center">
+                    <a href="tel:+33684130622" class="text-3xl md:text-5xl font-black text-cobalt hover:scale-105 transition-transform block mb-6">
+                        06 84 13 06 22
+                    </a>
+                    <div class="h-px w-24 bg-slate-300 mb-6"></div>
+                    <a href="mailto:active.plomberie.01000@gmail.com" class="text-slate-500 hover:text-cobalt transition font-semibold">
+                        active.plomberie.01000@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-16 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+            <div class="max-w-xs">
+                <span class="text-white font-black text-xl tracking-tighter mb-4 block">ACTIVE PLOMBERIE</span>
+                <p class="text-sm">Votre expert de proximité pour tous vos besoins en plomberie et sanitaire à Bourg-en-Bresse et alentours.</p>
+            </div>
+            <div class="text-sm">
+                <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Informations</h5>
+                <ul class="space-y-2">
+                    <li>SIRET : En cours d'immatriculation</li>
+                    <li>Assurance : RC Pro / Décennale</li>
+                    <li>Secteur : Ain (01) & Jura (39)</li>
+                </ul>
+            </div>
+            <div class="text-sm text-right">
+                <p>© 2026 Active Plomberie.</p>
+                <p>Tous droits réservés.</p>
+                <p class="mt-4 text-xs">Site statique optimisé pour le référencement local.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Gestion du scroll pour le header
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-xl', 'py-1');
+            } else {
+                nav.classList.remove('shadow-xl', 'py-1');
+            }
+        });
+
+        // Tracking basique pour les clics d'appels (conceptuel pour conversion)
+        document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+            link.addEventListener('click', () => {
+                console.log('Appel téléphonique initié');
+            });
+        });
+    </script>
+</body>
+</html>
